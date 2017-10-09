@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="SafetyPlus1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SafetyPlus1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="people" Content="People" HorizontalAlignment="Stretch" Margin="84,0,90,184" VerticalAlignment="Bottom" Height="71" Click="button_Click" Background="#FF3595AA" FontSize="22"/>
+        <Button x:Name="police" Content="Police" HorizontalAlignment="Stretch" Margin="84,0,90,100" VerticalAlignment="Bottom" Height="71" RenderTransformOrigin="0.5,0.502" Click="button1_Click" Background="#FF16778D" FontSize="22"/>
+        <TextBlock x:Name="textBlock" Margin="157,0,124,268" TextWrapping="Wrap" Text="Register as" VerticalAlignment="Bottom" d:LayoutOverrides="VerticalAlignment" Height="21" FontSize="18"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="231" Margin="106,10,0,0" VerticalAlignment="Top" Width="204" Source="Assets/Logo.png" Stretch="Fill"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="65,241,0,0" TextWrapping="Wrap" Text="SAFETY PLUS" VerticalAlignment="Top" Height="50" Width="298" FontSize="45" Foreground="#FFF9F5F5"/>
+    </Grid>
+</Page>

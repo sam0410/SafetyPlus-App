@@ -1,0 +1,20 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SafetyPlus1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="SafetyPlus1.PoliceHomexaml"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Maps:MapControl Name="MyMap" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="380" Height="539" ZoomLevelChanged="MyMap_ZoomLevelChanged"/>
+        <Slider x:Name="mySlider" Orientation="Vertical" HorizontalAlignment="Right" Height="211" Width="45" Margin="0,0,10,0" Minimum="10" Maximum="20" Value="0" ValueChanged="ZoomValueChanged" Foreground="SteelBlue"/>
+        <TextBox x:Name="aid" HorizontalAlignment="Left" Margin="10,581,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,554,0,0" TextWrapping="Wrap" Text="Enter the aadhar id of the point you want to delete." VerticalAlignment="Top" Width="380" Height="22" FontSize="16"/>
+        <AppBarButton x:Name="appBarButton" HorizontalAlignment="Left" Icon="Forward" Label="" Margin="334,569,0,0" VerticalAlignment="Top" Width="66" Height="63" Click="appBarButton_Click"/>
+    </Grid>
+</Page>

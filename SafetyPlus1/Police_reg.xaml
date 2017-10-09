@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="SafetyPlus1.Police_reg"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SafetyPlus1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF674E68">
+        <TextBlock x:Name="textBlock" Margin="10,10,134,0" TextWrapping="Wrap" Text="Sign Up" VerticalAlignment="Top" Height="50" d:LayoutOverrides="LeftPosition, RightPosition" FontSize="35"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" Text="Police Station" VerticalAlignment="Top" Height="35" Width="159" FontSize="24"/>
+        <TextBox x:Name="policestation" Margin="10,95,10,0" TextWrapping="Wrap" Text="" d:LayoutOverrides="LeftPosition, RightPosition" Height="29"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="10,156,0,0" TextWrapping="Wrap" Text="Mobile" VerticalAlignment="Top" Height="41" Width="159" FontSize="24"/>
+        <TextBox x:Name="mobile" Margin="10,197,10,0" TextWrapping="Wrap" Text="" d:LayoutOverrides="LeftPosition, RightPosition" Height="29"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="10,258,0,0" TextWrapping="Wrap" Text="User ID" VerticalAlignment="Top" Height="33" Width="159" FontSize="24"/>
+        <TextBox x:Name="userid" Margin="10,296,10,305" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch" d:LayoutOverrides="LeftPosition, RightPosition" Height="29"/>
+        <Button x:Name="button" Content="Submit&#xD;&#xA;" HorizontalAlignment="Stretch" Margin="107,0,93,114" VerticalAlignment="Bottom" Height="89" Click="button_Click" Background="#FFCC8ED3"/>
+
+    </Grid>
+</Page>
