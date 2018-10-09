@@ -5,8 +5,8 @@ By- Team YOLO (Code.Fun.Do IIT BHU) January 2017
 
 Team members-
 1.	Kavita Sidar
-2.	Shweta Singh
-3.	Samikshya Chand
+2.	Samikshya Chand
+3.	Shweta Singh
 -----------------------------------------------------------
 
 This is an app for Windows Phone 8.1 which aims at the safety of people.
